@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">)
+
+ /*
+font-family: "Nanum Gothic Coding", monospace;
+font-family: "Cedarville Cursive";
+*/
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    margin: 0;
+    padding: 20px;
+    font-family: "Cedarville Cursive";
+}
+h2{
+    margin: 0;
+    padding: 20px;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+p{
+    margin: 0;
+    padding: 20px;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+ul , ol {
+    margin: 0;
+    padding: 20px;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+nav {
+    background-color: #0bebff;
+    color: #080808;
+    padding: 10px;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+.tabs {
+    list-style-type: none;
+}
+
+.tabs li {
+    display: inline;
+    margin-right: 10px;
+    font-family: "Nanum Gothic Coding", monospace;
+
+}
+
+.tabs li a {
+    text-decoration: none;
+    color: #080808;
+    font-family: "Nanum Gothic Coding", monospace;
+
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+.image-boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box {
+    flex-basis: 45%;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-photo {
+    margin-top: 20px;
+
+}
+
+.banner-photo img {
+    width: 100%;
+    height: auto;
+    
+}
+
+footer {
+    background-color: #efcc09;
+    color: #080808;
+    padding: 20px;
+    text-align: center;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
